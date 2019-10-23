@@ -61,7 +61,6 @@ module.exports = {
             },
             {
                 test: /\.(js|jsx)$/,
-                include: [/node_modules\/itas-ui/],
                 use: {
                     loader: 'babel-loader',
                     options: {

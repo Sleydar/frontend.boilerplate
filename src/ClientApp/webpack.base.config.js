@@ -12,7 +12,6 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                include: [/node_modules\/itas-ui/, /src/],
                 use: [
                     {
                         loader: 'babel-loader',

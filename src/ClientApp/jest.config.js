@@ -7,7 +7,6 @@ module.exports = {
     moduleNameMapper: {
         '\\.(css|scss)$': '<rootDir>/node_modules/jest-css-modules',
     },
-    transformIgnorePatterns: ['/node_modules/(?!itas-ui).+\\.js$'],
     globals: {
         PUBLIC_URL: '',
     },

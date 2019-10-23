@@ -50,7 +50,6 @@ const ssr = merge(base, {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                include: [/node_modules\/itas-ui/, /src/],
                 use: [
                     {
                         loader: 'babel-loader',
