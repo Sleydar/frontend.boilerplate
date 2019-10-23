@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Error";
+}
+@Model System.Exception
+
+<h1>Error</h1>
+<h4>@Model.Message</h4>
+<p>@Model.ToString()</p>
